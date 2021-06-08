@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "450-DSA-Cracker/Array/Array.md",
+            "file": "450-DSA-Cracker/Array/Array & Other Structres.md",
             "mode": "source"
           }
         }
@@ -20,7 +20,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "450-DSA-Cracker/Array/Array.md",
+            "file": "450-DSA-Cracker/Array/Array & Other Structres.md",
             "mode": "preview"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "450-DSA-Cracker/Array/Array.md",
+                "file": "450-DSA-Cracker/Array/Array & Other Structres.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +99,8 @@
   },
   "active": "3d14ddbc5ca25518",
   "lastOpenFiles": [
+    "450-DSA-Cracker/Array/Array & Other Structres.md",
+    "Codes/Reverse-Array.cpp.md",
     "450-DSA-Cracker/Array/Array.md",
     "README.md"
   ]
