@@ -1,0 +1,105 @@
+{
+  "main": {
+    "id": "d60fef2e27015c31",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d14ddbc5ca25518",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "450-DSA-Cracker/Array/Array.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "25a6d069bbe11e55",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "450-DSA-Cracker/Array/Array.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c1a6afe34d44da4e",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4f166d5bd6a3dd7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "368837021c72e3f2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "07d121ee5df6ce5c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1bbc0979bd8818c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "146cbfe25cc195a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "82530f169fe44bb4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "450-DSA-Cracker/Array/Array.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "3d14ddbc5ca25518",
+  "lastOpenFiles": [
+    "450-DSA-Cracker/Array/Array.md",
+    "README.md"
+  ]
+}
