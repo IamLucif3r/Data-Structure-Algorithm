@@ -15,12 +15,12 @@
         }
       },
       {
-        "id": "46b44a867d137131",
+        "id": "8bd5c91aeb7a7309",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "450-DSA-Cracker/Array/Array & Other Structres.md",
             "mode": "preview"
           }
         }
@@ -63,7 +63,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 203.00079345703125
   },
   "right": {
     "id": "1bbc0979bd8818c3",
@@ -100,6 +100,9 @@
   "active": "3d14ddbc5ca25518",
   "lastOpenFiles": [
     "450-DSA-Cracker/Array/Array & Other Structres.md",
+    "Concepts/Array/README.md",
+    "Untitled.md",
+    "Concepts/Time-Complexity/README.md.md",
     "README.md",
     "Codes/Reverse-Array.cpp.md",
     "450-DSA-Cracker/Array/Array.md"
