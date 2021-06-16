@@ -4,23 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "3d14ddbc5ca25518",
+        "id": "ab2239f080dfb89d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "450-DSA-Cracker/Array/Array & Other Structres.md",
+            "file": "Array-Questions-450DSA.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "8bd5c91aeb7a7309",
+        "id": "5e8b5be2c456d0aa",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "450-DSA-Cracker/Array/Array & Other Structres.md",
+            "file": "Array-Questions-450DSA.md",
             "mode": "preview"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "450-DSA-Cracker/Array/Array & Other Structres.md",
+                "file": "Array-Questions-450DSA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,11 +97,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "3d14ddbc5ca25518",
+  "active": "ab2239f080dfb89d",
   "lastOpenFiles": [
+    "Array-Questions-450DSA.md",
+    "Untitled.md",
     "450-DSA-Cracker/Array/Array & Other Structres.md",
     "Concepts/Array/README.md",
-    "Untitled.md",
     "Concepts/Time-Complexity/README.md.md",
     "README.md",
     "Codes/Reverse-Array.cpp.md",
