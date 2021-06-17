@@ -54,4 +54,48 @@ K = 3
 3rd smallest element in the given 
 array is 7.
 
-Solution: 
+Solution: [k-smallest-element.cpp](Codes/k-smallest-element.cpp) <br>
+Approach: A very simple approach would be sorting the array first and returning the [k-1]th element from the sorted array
+
+---
+4. <b> Given an array of size N containing only 0s, 1s, and 2s; sort the array in ascending order.</b>
+	Example 1:
+	
+	Input: 
+		N = 5 
+		arr\[\]= {0 2 1 2 0}
+		Output:
+		0 0 1 2 2
+
+Explanation: 0s 1s and 2s are segregated  into ascending order.
+	Solution: 
+
+Approach: 
+--> An Efficient solution to this problem is to use a binary search.   
+<u>1. For the first occurrence of a number  </u>
+```txt		
+a) If (high >= low)
+b) Calculate  mid = low + (high - low)/2;
+c) If ((mid == 0 || x > arr\[mid-1\]) && arr\[mid\] == x)
+         return mid;
+d) Else if (x > arr\[mid\])
+        return first(arr, (mid + 1), high, x, n);
+e) Else
+        return first(arr, low, (mid -1), x, n);
+f) Otherwise return -1;
+```
+
+<u> 2. For the last occurrence of a number </u>
+```txt
+  a) if (high >= low)
+  b) calculate mid = low + (high - low)/2;
+  c)if( ( mid == n-1 || x < arr\[mid+1\]) && arr\[mid\] == x )
+         return mid;
+  d) else if(x < arr\[mid\])
+        return last(arr, low, (mid -1), x, n);
+  e) else
+       return last(arr, (mid + 1), high, x, n);      
+  f) otherwise return -1;
+```
+
+---
