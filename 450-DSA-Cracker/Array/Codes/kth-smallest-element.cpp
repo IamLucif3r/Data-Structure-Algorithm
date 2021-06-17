@@ -61,11 +61,11 @@ public:
 };
 int main()
 {
-    int arr[]={7,10,4,20,15};
+    vector<int> arr[]={7,10,4,20,15};
     int k = 4;
     int l=0;
     int r = sizeof(arr)-1;
     cout<<"smallest element number"<<k<<"is:";
-    cout<<kthsmallest(arr,l,r,k);
+    cout<<kthSmallest(arr,l,r,k);
 return 0;
 }
