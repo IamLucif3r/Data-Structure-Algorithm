@@ -9,18 +9,18 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Array-Questions-450DSA.md",
+            "file": "Concepts/Algos/Kadane's-Algorithm.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "5e8b5be2c456d0aa",
+        "id": "222ae534618e60b8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Array-Questions-450DSA.md",
+            "file": "Concepts/Algos/Kadane's-Algorithm.md",
             "mode": "preview"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Array-Questions-450DSA.md",
+                "file": "Concepts/Algos/Kadane's-Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,15 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ab2239f080dfb89d",
+  "active": "222ae534618e60b8",
   "lastOpenFiles": [
-    "Array-Questions-450DSA.md",
-    "Untitled.md",
+    "Concepts/Algos/Kadane's-Algorithm.md",
+    "Kadane's-Algorithm.md",
+    "Untitled 1.md",
     "450-DSA-Cracker/Array/Array & Other Structres.md",
+    "Untitled.md",
+    "Array-Questions-450DSA.md",
     "Concepts/Array/README.md",
     "Concepts/Time-Complexity/README.md.md",
     "README.md",
-    "Codes/Reverse-Array.cpp.md",
-    "450-DSA-Cracker/Array/Array.md"
+    "Codes/Reverse-Array.cpp.md"
   ]
 }
