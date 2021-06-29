@@ -31,5 +31,61 @@ All Subsets Possible out of abc.
 Input: "abc"
  ![](assets/5.png)
 
+---
 
+## Recursion is Everywhere!!
+Recursion is used in: 
+- Graphs,
+- Tree
+- Array & Strings
+- Dynamic Programming
+- Backtracking
+- Data Structures etc
 
+## Problems Based on Recursion:
+1. Input Output Methods
+	- [Print 1 to n / n to 1](Codes/print-1-n.cpp)
+	- Sort an array / Sort a Stack
+	- Delete the middle Element of Stack
+	- Removal of Duplicates from a string
+	- Counting Number of Occurences
+	- Subset Problem
+	- Josephus Problem
+	- Permutation of Spaces 
+2. Extended Input Output Method
+
+	- Binary String Generation (Like Num of 1 > Num of 0)
+	- Generate Balanced Parenthese
+
+----
+
+## Hypothesis
+1. Base Condition
+	- Smallest Valid Input
+	- or Smallest Invalid Input
+
+<b>Step 1: Design hypothesis</b>
+
+```cpp
+//Using Math Induction, if print(n) prints till n, print(n-1) will print upto (n-1). i.e.
+print(7) = 1,2,3,4,5,6,7
+print(6) = 1,2,3,4,5,6
+```
+
+<b> Step 2: Induction </b>
+It is the most Important Step for a recursion.
+We have got print(n), we will simple call print(n-1),
+```cpp
+// Calling Print(n-1)
+print(n-1);
+cout<<n<<",";
+```
+
+<b> Step 3: Base Condition</b>
+According to question, we will find the Minimum value, and put it in the base condition. (Smallest Valid Input)
+```cpp
+if(n==1)
+	return 1;
+```
+
+Tip: Attempt to check the Recursion for n and (n-1) input only.
