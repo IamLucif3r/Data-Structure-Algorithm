@@ -89,3 +89,32 @@ if(n==1)
 ```
 
 Tip: Attempt to check the Recursion for n and (n-1) input only.
+
+---
+### How does Hypothesis & Induction works ?
+We define a function in Hypothsis and creates its signature.
+for eg. In a Program to print 1-n 
+```cpp
+print(n) ---> will print 1 to N
+print(n-1) ---> will print 1 to N-1
+```
+Now in Induction step, we will have to simply call
+```cpp
+void print(n)
+{
+	if(n==1)
+	cout<<n<<" ";
+	return 1;
+}
+print(n-1);
+
+```
+
+<b>Conclusion: </b>
+You can design your hypothesis anyhow, but you can change the whole working of the function by just modifing the Induction.
+
+<b>Approach to Solve any Recursion Problem :</b>
+1. Observe the Problem Statement, look for the Input & Output.
+2. Design the Induction ,Base Condition, Hypothesis
+3. Write the Code.
+
