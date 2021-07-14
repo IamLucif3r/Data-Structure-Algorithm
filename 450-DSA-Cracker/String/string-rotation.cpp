@@ -41,3 +41,4 @@ else
 	printf("Strings are not rotations of each other");
 return 0;
 }
+   
