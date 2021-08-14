@@ -1,3 +1,6 @@
+/*
+Given three arrays sorted in increasing order. Find the elements that are common in all three arrays.
+*/
 #include<bits/stdc++.h>
 using namespace std;
 class Solution{
