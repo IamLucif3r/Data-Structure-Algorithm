@@ -2,37 +2,29 @@
 using namespace std;
 class Solution{
     public:
-        long long int countPS(string str)
-        {
-            long long int mod = 1000000007;
-int n = s.length();
-int dp[n][n];
-for(int g = 0; g < n; g++){
-for(int j = g, i = 0; j < n; i++, j++){
-if(g == 0){
-dp[i][j] = 1;
-}
-else if(g == 1){
-if(s[i] == s[j]) dp[i][j] = 3;
-else dp[i][j] = 2;
-}
-else if(s[i] == s[j]){
-dp[i][j] = (dp[i][j-1]+ dp[i+1][j] + 1) % mod;
-}
-else{
-long long a = (dp[i][j-1] + dp[i+1][j])%mod;
-long long b = dp[i+1][j-1];
-dp[i][j] = ((a - b) % mod + mod) % mod;
-}
-}
-}
-return dp[0][n-1];
-        }
-}asy;
+
+
+int countPS(string str)
+{
+    int n = str.length();
+    int cps[n+1][n+1];
+    memset(cps, 0, sizeof(cps));
+    for(int i=0;i<n;i++)cps[i][i]=1;
+    for(int L=2;L<=n;L++){
+        for(int i=0;i<n;i++){
+            int k = i+L-1;
+            if(str[i]==str[k])
+                cps[i][k] = cps[i+1][k]+cps[i][k-1]+1;
+            else
+                cps[i][k] = cps[i+1][k]+cps[i][k-1]-cps[i+1][k-1];
+        }    
+    }
+    return cps[0][n-1];
+}}asy;
 int main(void)
 {
     string str;
     cin>>str;
-    long long int ans = asy.countPS(std);
-    
+    long long int ans = asy.countPS(str);
+    cout<<ans;
 }
