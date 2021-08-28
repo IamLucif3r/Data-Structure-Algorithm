@@ -1,8 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 class Solution{
-    void solve(int i, int j, vector<vector<int>> &a, int n, vector<string> &ans, string move, 
-    vector<vector<int>> &vis, int di[], int dj[]) {
+    void solve(int i, int j, vector<vector<int>> &a, int n, vector<string> &ans, string move, vector<vector<int>> &vis, int di[], int dj[]) {
         if(i==n-1 && j==n-1) {
             ans.push_back(move);
             return; 
