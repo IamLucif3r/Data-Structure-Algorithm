@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(void)
+{
+	int p,y;
+	float r;
+	cin>>p>>r>>y;
+	cout<<r<<std::setprecision(2);
+	
+}
