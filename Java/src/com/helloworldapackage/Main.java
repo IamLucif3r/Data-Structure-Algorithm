@@ -1,6 +1,8 @@
 package com.helloworldapackage;
 
+import java.awt.*;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
 
@@ -71,9 +73,54 @@ public class Main {
         float pi2 = 3.14F;
         // You can make a constant Final :
         final float PI = 3.14F;
+        // Operators
+        int a =10;
+        int b = 2;
+        int sum = a+b;
+        System.out.println(sum);
+        System.out.println(a-b);
+        System.out.println(a*b);
+        System.out.println(a/b);
+        System.out.println(a%b);
+        // ASsignment Operator:
+        double d = 4 ;
+        // Unary Operators:
+        d = d+1;
+        System.out.println(d);
+        System.out.println(d++);
+        System.out.println(d);
+        System.out.println(++d);
+        System.out.println(d);
+        // Same works for --
+        // MATHS Class: Mathematical Functions
+        //1. Dot Max -- to print max of two numbers
+        System.out.println(Math.max(5,4));
+        System.out.println(Math.min(5,3));
+        //2. Random Functions: 0.0-1.0 ki range me 1 number return kerega
+        System.out.println(Math.random());
+        System.out.println((int)Math.random()*100);
+        // Taking Inputs
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Your Age:");
+        // Following statement will take input, use nextFloat() for taking input in float and so on
+        //int age2 = sc.nextInt(); //sc.nextFloat(), sc.nextDouble etc;
+       // System.out.println(age2);
+        // Taking String Input
+       // System.out.println("Enter Your Name:");
+       // String Name2 = sc.next(); // However, It will take only 1st word as input
+      // System.out.println(Name2);
+        // If U want to take whole sentence as Input: use sc.nextLine();
+        System.out.println("Enter Your Full Name:");
+        String Name3 = sc.nextLine();
+        System.out.println(Name3);
 
-
-
+        // Conditional Statements
+        boolean isSunUp = true;
+        if(isSunUp==true)
+        System.out.println("Day");
+        else
+            System.out.println("Night");
+        // Break & Continue:
 
     }
 }
