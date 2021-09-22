@@ -1,0 +1,28 @@
+import java.util.*;
+
+public class recursion_prime_number {
+    static int prime(int n, int div)
+    {
+        int flag=0;
+        if(div==1)
+        return 1;
+        else if(n%div==0)
+        return 0;
+        else
+        prime(n,div);
+    
+     div = (int) Math.sqrt(n);
+     flag = prime(n,div);
+     if(flag==1)
+        prime
+    else
+    prime
+
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n=sc.nextInt();
+
+    }
+    
+}
