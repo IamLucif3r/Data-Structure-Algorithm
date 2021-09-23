@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "FacePrep/Codes",
-        "FacePrep/Algorithms"
+        "FacePrep/Algorithms",
+        "Java"
     ]
 }
