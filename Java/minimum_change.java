@@ -35,7 +35,13 @@ public class minimum_change {
             one = x;   
        }
         count = hundred+fifty+ten+five+two+one;
-        System.out.println(count);
+        if(hundred<fifty&&hundred<ten&&hundred<five&&hundred<two&&hundred<two )
+        System.out.println(hundred);
+        System.out.println(fifty);
+        System.out.println(ten);
+        System.out.println(five);
+        System.out.println(two);
+        System.out.println(one);
         
     }
 }
