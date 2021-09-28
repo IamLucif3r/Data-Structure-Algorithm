@@ -33,17 +33,17 @@ public class sum_of_all_permutations {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-    int n = sc.nextInt();
-    int temp = n;//2
-    int i,a,sum=0;
+    int n = sc.nextInt(); // Getiing the value of n
+    int temp = n;// Storing the size of array in N
+    int i,a,sum=0; // Sum to store sum
     for(i=0;i<n;i++)
     {
-        a = sc.nextInt();//1,2
+        a = sc.nextInt();//Getting Each value
         sum = sum+a; // 1+2=3
     }
     int j=1;
-    while(--n!=0)//2;1
-    j=j*10+1;//
+    while(--n!=0)// TIll The n value exists, loop will run
+    j=j*10+1; //
     System.out.println(sum*fact(temp-1)*j);
     }
 
