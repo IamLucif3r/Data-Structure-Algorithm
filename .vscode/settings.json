@@ -1,9 +1,10 @@
 {
     "java.project.sourcePaths": [
+        "ToDo",
         "Java",
         "FacePrep/Codes",
         "FacePrep/Algorithms",
         "450-DSA-Cracker/Search-and-Sort",
-        "ToDo"
+        "NERD"
     ]
 }
