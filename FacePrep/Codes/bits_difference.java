@@ -32,5 +32,6 @@ import java.util.*;
 public class bits_difference {
     public static void main(String[] args) {
         
+        
     }
 }
