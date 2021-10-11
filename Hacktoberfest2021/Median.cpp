@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// C++ program to find the median of the array formed by merging two sorted arrays
+
 int getMedian(int ar1[],int ar2[], int n){
     int i = 0;
     int j = 0;
