@@ -1,0 +1,3 @@
+Pattern Programming
+------------------------
+- The Pattern will be printed in Columns first, then for the second row, again the column will be printed.
