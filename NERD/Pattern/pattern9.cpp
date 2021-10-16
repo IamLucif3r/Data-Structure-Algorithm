@@ -15,7 +15,7 @@ int main(void)
     {
         for(space=1; space<=(n-i);space++) //spaces
         {
-            cout<<" ";// Bcox ASCII value of A is 65
+            cout<<" ";// 
         }
         for(j=1;j<=2*i-1;j++)
         {
