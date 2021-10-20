@@ -33,35 +33,26 @@ import java.util.*;
 class betting_game{
     public static void main(String args[])
     {
-        Scanner sc = new Scanner(System.in);
-        String s = sc.nextLine();
-        int amt = 10;
-        int bet = 1;
-        for(int i=0;i<s.length();i++)
-        {
-            if(amt>0)
-            {
-                if(s.charAt(i)=='W')
-                {
-                    if(bet==1)
-                    {
-                        bet =1;
-                    }
-                    bet = bet+(bet/2);
-                    amt = amt+bet;
-                }
-                else if(s.charAt(i)=='L')
-                {
-                    bet = bet*2;
-                    amt = 0;
-                }
-
-            }
-            else{
+        Scanner sc=new Scanner(System.in);
+        String s=sc.next();
+        int amt=10,bet=1;
+        boolean flag=false;
+        for(int i=0;i<s.length();i++){
+            if(bet>amt){
                 System.out.println("-1");
+                flag=true;
                 break;
             }
+            if(s.charAt(i)=='W'){
+                amt=amt+bet;
+                bet=bet/2;
+                bet=(bet==0)?1:bet;
+            }else{
+                amt=amt-bet;
+                bet=bet*2;
+            }
         }
+        if(!flag)
         System.out.println(amt);
     }
 }

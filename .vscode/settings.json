@@ -2,11 +2,12 @@
     "java.project.sourcePaths": [
         "ToDo",
         "NERD",
+        "LeetCode-Placement-Training",
         "Java",
         "FacePrep/Codes",
         "FacePrep/Algorithms",
         "Examly",
         "450-DSA-Cracker/Search-and-Sort",
-        "LeetCode-Placement-Training"
+        "FacePrep/Assignment"
     ]
 }
