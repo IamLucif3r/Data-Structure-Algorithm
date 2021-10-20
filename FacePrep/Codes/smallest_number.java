@@ -19,7 +19,8 @@ Input (stdin)
 3
 Output (stdout)
 21
-*/
+   */
+
 import java.util.*;
 public class smallest_number{
     public static void main(String args[]) {
@@ -27,7 +28,7 @@ public class smallest_number{
         String s = sc.nextLine();
         int n = sc.nextInt();
         int len = s.length();
-        if(k==len)
+      /*  if(k==len)
             return " ";
         Stack<Character> stack = new Stack<>;
         int i=0;
@@ -39,6 +40,6 @@ public class smallest_number{
         stack.push(num.charAt(i));
         i++;
         String builder sb = new StringBuilder();
-        return sb;
+        return sb;*/
     }
 }

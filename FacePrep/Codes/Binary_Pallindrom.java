@@ -25,6 +25,7 @@ public class Binary_Pallindrom {
         int x = in.nextInt();
         //Divide num by 2 store remainders in array, reverse  to check
         System.out.println(isPalindrome(x));  
+        in.close();
 
     }
 }
