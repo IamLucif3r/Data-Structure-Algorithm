@@ -15,7 +15,7 @@ public class all_possible_combination {
         int r = 3;
         for(int i=0;i<arr.length;i++)
         {
-            
+            NN
         }
     }
 }
