@@ -3,7 +3,7 @@
 // n using Sieve of Eratosthenes
 import java.util.*;
 class simple_sieve_one {
-	void sieveOfEratosthenes(int n)
+	public static void sieveOfEratosthenes(int n)
 	{
 		// Create a boolean array
 		// "prime[0..n]" and
@@ -16,15 +16,15 @@ class simple_sieve_one {
 		for (int i = 0; i <= n; i++) //O(n)
 			prime[i] = true;
 
-		for (int p = 2; p * p <= n; p++) //O(log(log n))
+		for (int i = 2; i * i <= n; i++) //O(log(log n))
 		{
 			// If prime[p] is not changed, then it is a
 			// prime
-			if (prime[p] == true)
+			if (prime[i] == true)
 			{
 				// Update all multiples of p
-				for (int i = p * p; i <= n; i += p)
-					prime[i] = false;
+				for (int j = i * i; j <= n; j += i)
+					prime[j] = false;
 			}
 		}
 
@@ -41,8 +41,7 @@ class simple_sieve_one {
 	{
         Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		System.out.println("Following are the prime numbers ");
-		System.out.println("smaller than or equal to " + n);
+		System.out.println("Prime Numbers Less than "+n+" are :");
 		SieveOfEratosthenes g = new SieveOfEratosthenes();
 		g.sieveOfEratosthenes(n);
 	}
