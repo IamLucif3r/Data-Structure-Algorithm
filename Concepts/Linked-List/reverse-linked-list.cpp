@@ -2,7 +2,6 @@
 // a linked list
 #include <iostream>
 using namespace std;
-
 /* Link list node */
 struct Node {
 	int data;
@@ -13,11 +12,9 @@ struct Node {
 		next = NULL;
 	}
 };
-
 struct LinkedList {
 	Node* head;
 	LinkedList() { head = NULL; }
-
 	/* Function to reverse the linked list */
 	void reverse()
 	{
@@ -25,21 +22,17 @@ struct LinkedList {
 		// next pointers
 		Node* current = head;
 		Node *prev = NULL, *next = NULL;
-
 		while (current != NULL) {
 			// Store next
 			next = current->next;
-
 			// Reverse current node's pointer
 			current->next = prev;
-
 			// Move pointers one position ahead.
 			prev = current;
 			current = next;
 		}
 		head = prev;
 	}
-
 	/* Function to print linked list */
 	void print()
 	{
@@ -49,7 +42,6 @@ struct LinkedList {
 			temp = temp->next;
 		}
 	}
-
 	void push(int data)
 	{
 		Node* temp = new Node(data);
@@ -57,7 +49,6 @@ struct LinkedList {
 		head = temp;
 	}
 };
-
 /* Driver code*/
 int main()
 {
@@ -67,12 +58,9 @@ int main()
 	ll.push(4);
 	ll.push(15);
 	ll.push(85);
-
 	cout << "Given linked list\n";
 	ll.print();
-
 	ll.reverse();
-
 	cout << "\nReversed Linked list \n";
 	ll.print();
 	return 0;
