@@ -9,8 +9,9 @@ public class ll1 {
             int k=sc.nextInt();
             ll.add(k);
         }
+
         //Collections.reverse(ll);
-        System.out.println(ll);
+        System.out.println("Initial Linked List"+ll);
 
     }
 }
