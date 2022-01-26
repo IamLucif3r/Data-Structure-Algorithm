@@ -4,6 +4,7 @@
         "NERD",
         "LeetCode-Placement-Training",
         "Java",
+        "FacePrep/offline",
         "FacePrep/Codes",
         "FacePrep/Assignment",
         "FacePrep/Algorithms",
@@ -11,6 +12,6 @@
         "Concepts/stack",
         "Concepts/Array",
         "450-DSA-Cracker/Search-and-Sort",
-        "FacePrep/offline"
+        "Concepts/Linked-List"
     ]
 }

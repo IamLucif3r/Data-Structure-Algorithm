@@ -11,7 +11,12 @@ public class ll1 {
         }
 
         //Collections.reverse(ll);
-        System.out.println("Initial Linked List"+ll);
+        System.out.println("Initial Linked List "+ll);
+        ll.addFirst(10);
+        System.out.println("Adding in Start "+ll);
+        ll.clear();
+        System.out.println(ll);
+
 
     }
 }
