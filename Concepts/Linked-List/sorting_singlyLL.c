@@ -32,7 +32,7 @@ void sortedInsert(struct node* new_node)
     }else{
         struct node* current = sorted;
         // locate the node before point of insertions
-        while(current ->next->data <new_node->data){
+        while(current->next!=NULL && current->next ->data < new_node->data){
             current = current->next;
         }
         new_node->next = current->next;
@@ -42,11 +42,14 @@ void sortedInsert(struct node* new_node)
 void insertionSort()
 {
     struct node* current = head;
+    //Traverse the given linked list & insert every node to sorted.
     while(current!=NULL){
+       // Storing next for next iteration
         struct node* next = current->next;
         sortedInsert(current);
         current = next;
     }
+    //In last update head pointer to point to sorted linked list
     head = sorted;
 
 }
