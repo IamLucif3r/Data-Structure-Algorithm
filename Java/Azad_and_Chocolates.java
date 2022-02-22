@@ -1,52 +1,70 @@
-import java.io.*;
-import java.util.Scanner;
-public class Azad_and_Chocolates {
-int value(int x) {
-while(x>=7)
-{
-x=x-7;
-if(x%3==0)
-{
-return 1;
-}
-}
-return 0;
-}
-int valuecheck(int a)
-{
-if(a%3==0||a%7==0||a%3==7||a%7==3)
-return 1;
-else
-return 0;
-}
+/*  
+Azad and Chocolates
 
- public static void main(String[] args) throws IOException {
-// TODO Auto-generated method stub
-Scanner sc = new Scanner(System.in);
-int cases = sc.nextInt();
-int arr[] = new int[cases];
-for(int i = 0; i<cases; i++) {
-arr[i] = sc.nextInt();
-}
-Azad_and_Chocolates obj = new Azad_and_Chocolates();
-int val;
-for(int i = 0; i<cases; i++) {
-if(arr[i]<=97)
-{
-val = obj.valuecheck(100-arr[i]);
-if(val == 1)
-System.out.println(val);
-else
-{
-val = obj.value(100-arr[i]);
-System.out.println(val);
-}
-}
-else
-{
-System.out.println(0);
-}
-}
-}
+Azad’s mother gave him Rs 100, so he decided to buy some chocolates. 
+He went to a shop and that shop only has chocolates of Rs 3 and 7,
+ so it now depends on Azad’s mood that how many chocolates he will buy. 
+Maybe he will not buy single chocolate. Can you tell whether he has visited the same shop,
+ from the remaining amount?
+  If N (0 ≤ N ≤ 100) is equal to the possible remaining amount he has after he came from that shop,
+   then print 1 or else 0.
+
+Format:
+Input:
+
+The first line of the input contains a single integer T denoting the number of test cases.
+ The first line of each test case contains N, denoting the remaining amount.
+
+Output:
+For each test case, the output is 0 or 1. 
+Constraints: 
+1 ≤ T ≤ 101 
+
+0 ≤ N ≤ 100
+Example:
+Input: 
+4
+93
+97
+94
+99
+Output: 
+1
+1
+1
+0
+Explanation:
+100 - (0 * 3 + 1 * 7) = 93, so the output is 1.
+100 - (1 * 3 + 0 * 7) = 97, so the output is 1.
+100 - (2 * 3 + 0 * 7) = 94, so the output is 1.
+It is not possible, so the output is 0.	
+Case 1	
+Case 2
+Input (stdin)
+4
+93
+97
+94
+99
+Output (stdout)
+1
+1
+1
+0
+*/
+import java.util.*;
+public class azad_and_chocolates {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        int t=sc.nextInt();
+        for(int i=0;i<t;i++){
+            int n=sc.nextInt();
+            if(100-n<3){
+                System.out.println(0);
+            }else {
+                System.out.println(1);
+            }
+        }
+    }
 
 }
