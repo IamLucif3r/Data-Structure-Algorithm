@@ -18,8 +18,11 @@ public class triplets_sum {
         // Iterate from 0 to n-2
         for(int i=0;i<n-2;i++)
         {
-            if(i==0 ||  a[i] > a[i-1])
+            if (a[i] == a[i+1])
             {
+                continue;
+
+            }
                 int start = i+1;
                 int end = n-1;
                 int target = sum-a[i];
@@ -50,7 +53,7 @@ public class triplets_sum {
                     else 
                         end--;
                 }
-            }
+            
         }        
         if(flag == false)
         System.out.println("Triplets doesn't exist");
