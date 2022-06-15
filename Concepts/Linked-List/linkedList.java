@@ -8,6 +8,16 @@ class Node{
 }
 
 public class linkedList {
+    public static Node recursiveReverse(Node head)
+    {
+        if(head == null || head.next == null)
+            return head;
+        Node newHead = recursiveReverse(head.next);
+        Node headNext = head.next;
+        headNext.next = head;
+        head.next = null;
+        return newHead;
+    }
     public static Node reverse(Node head)
     {
         Node curr = head;
@@ -78,16 +88,22 @@ public class linkedList {
         // Traversing Linked list using a Head reference
         traverse(head);
         // Inserting element at specific position.
-        insert(15, head, 2);
-        System.out.println("After Adding");
-        traverse(head);
+        // insert(15, head, 2);
+        // System.out.println("After Adding");
+        // traverse(head);
         // System.out.println("After Deleting");
         // delete(head, 2);
         // delete(head, 0);
         // delete(head, 1);
         // traverse(head);
-        System.out.println("REVERSING Linked list");
-        System.out.println(reverse(head));
+        // System.out.println("REVERSING Linked list");
+        // Node newHead = reverse(head);
+        
+        //  traverse(newHead);
+
+        System.out.println("Reversing using Recursive Func");
+        Node newHead2 = recursiveReverse(head);
+        traverse(newHead2);
         
     }
 }
