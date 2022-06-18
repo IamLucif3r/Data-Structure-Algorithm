@@ -19,7 +19,7 @@ public class arrayRank {
         int temp = 1;
         for(int i=0;i<n;i++)
         {
-            if(map.get(b[i])==null)
+            if(map.get(b[i])==null) 
             {
                 map.put(b[i], temp);
                 temp++;
